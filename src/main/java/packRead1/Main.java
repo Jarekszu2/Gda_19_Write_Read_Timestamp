@@ -1,8 +1,11 @@
 package packRead1;
 
+/*
+ */
+
 import java.io.*;
 
-public class Read {
+public class Main {
     public static void main(String[] args) {
         System.out.println();
 

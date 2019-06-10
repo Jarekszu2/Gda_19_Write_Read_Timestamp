@@ -9,8 +9,8 @@ public class MainFileWriterFinal {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        try (PrintWriter printWriter = new PrintWriter(new FileWriter("katalog/nazwa.txt", true))) {
-            for (int i = 0; i < 10; i++) {
+        try (PrintWriter printWriter = new PrintWriter(new FileWriter("katalog/nazwa2.txt", true))) {
+            for (int i = 0; i < 3; i++) {
                 scanner.next();
                 printWriter.println("hello!");
                 printWriter.flush();

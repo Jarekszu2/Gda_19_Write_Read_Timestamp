@@ -1,8 +1,6 @@
 package packZad3;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.Scanner;
 
 /*
@@ -15,13 +13,12 @@ public class MainZad3 {
         Scanner scanner = new Scanner(System.in);
 
         String text = "";
-        File file = new File("output_3.txt");
-        try (PrintWriter printWriter = new PrintWriter(file)) {
+        try (PrintWriter printWriter = new PrintWriter(new FileWriter("output_3.txt"))) {
             while (!text.equals("quit")) {
                 text = scanner.nextLine();
                 printWriter.println(text);
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

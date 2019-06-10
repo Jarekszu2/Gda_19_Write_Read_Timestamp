@@ -1,0 +1,8 @@
+
+--------
+wiek=2
+wzrost=3
+czyKobieta=true
+zarobki=4
+czyMaPsa=false
+rozmiarButa=5
