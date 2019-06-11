@@ -26,9 +26,9 @@ public class MainZad4 {
                 System.out.println("To jest katalog.");
             }
 
-            // Timestamp timestamp = new Timestamp(file.lastModified());
-            // LocalDateTime localDateTime = LocalDateTime.from(timestamp.toInstant());
-            // System.out.println("Last modified: " + localDateTime);
+            Timestamp timestamp = new Timestamp(file.lastModified());
+            LocalDateTime localDateTime = timestamp.toLocalDateTime();
+            System.out.println("Last modified: " + localDateTime);
             System.out.println("Rozmiar: " + file.length());
             System.out.println("Zapis: " + file.canWrite());
             System.out.println("Odczyt: " + file.canRead());

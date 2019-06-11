@@ -85,7 +85,7 @@ public class Formularz {
     }
 
     public String zwrocWFormacie() {
-        return "\n--------\n" + "wiek=" + wiek + "\n" +
+        return "wiek=" + wiek + "\n" +
                 "wzrost=" + wzrost + "\n" +
                 "czyKobieta=" + czyKobieta + "\n" +
                 "zarobki=" + zarobki + "\n" +

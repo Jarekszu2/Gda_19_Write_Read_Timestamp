@@ -1,6 +1,8 @@
 package packZad5_Formularz;
 
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
@@ -36,9 +38,11 @@ public class MainFormularz {
         System.out.println();
         System.out.println(formularz.zwrocWFormacie());
 
-        try(PrintWriter printWriter = new PrintWriter("formularz.txt")) {
+        try(PrintWriter printWriter = new PrintWriter(new FileWriter("formularz.txt", true))) {
             printWriter.println(formularz.zwrocWFormacie());
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

@@ -1,8 +1,12 @@
-
---------
 wiek=2
 wzrost=3
 czyKobieta=true
 zarobki=4
+czyMaPsa=true
+rozmiarButa=6
+wiek=3
+wzrost=4
+czyKobieta=false
+zarobki=6
 czyMaPsa=false
-rozmiarButa=5
+rozmiarButa=1
