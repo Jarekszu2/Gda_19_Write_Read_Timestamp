@@ -1,4 +1,4 @@
-package packZad4;
+package packZad4Timestamp;
 
 /*
  Napisz program, a w tym programie wczytaj jedną linię ze skanera od użytkownika.Poproś użytkownika o 'adres pliku'. Po wpisaniu zweryfikuj czy wybrany plik/katalog istnieje,czy jest plikiem/katalogiem, jaki jest jego: rozmiar, czas ostatniej modyfikacji i czy mamyprawa do odczytu/zapisu do tego pliku/katalogu
