@@ -1,11 +1,10 @@
-package packRead5;
+package packRead5_Formularz;
 
 /*
 Napisz aplikację która czyta plik 'output_form.txt' i wypisuje ilość wypełnionych formularzy.
  */
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
