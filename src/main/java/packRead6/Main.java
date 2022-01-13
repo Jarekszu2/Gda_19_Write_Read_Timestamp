@@ -16,7 +16,7 @@ public class Main {
         System.out.println();
 
         String linia;
-        int licznik;
+//        int licznik;
         List<String> list = new ArrayList<>();
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader("formularz.txt"))) {
             while ((linia = bufferedReader.readLine()) != null) {

@@ -23,6 +23,7 @@ public class Main {
                 // System.out.println(Arrays.toString(tab));
                 // System.out.println(tab[0]);
                 System.out.println(tab[1]);
+//                System.out.println(linia);
             }
         } catch (IOException e) {
             e.printStackTrace();
